@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+# Main Page
+
+Test
