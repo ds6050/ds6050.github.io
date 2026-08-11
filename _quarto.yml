@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "DS6050"
+  navbar:
+    search: false
+    left:
+      - href: index.qmd
+        text: Home
+      - href: syllabus.pdf
+        text: Syllabus
+      - text: Weeks
+        menu:
+          - text: Week 1
+            href: weeks/week1.qmd
+          - text: Week 2
+            href: weeks/week2.qmd
+
+format:
+  html:
+    theme:
+      - journal
+      # - morph
+      # - superhero
+      #- cosmo
+      - brand
+    css: styles.css
+    toc: true
+    mainfont: Palatino
+
+
+
