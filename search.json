@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DS6050: ML III: Deep Learning",
+    "section": "",
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "weeks.html",
+    "href": "weeks.html",
+    "title": "Weeks",
+    "section": "",
+    "text": "Week 1\nWeek 2"
+  },
+  {
+    "objectID": "week2.html",
+    "href": "week2.html",
+    "title": "Week 2",
+    "section": "",
+    "text": "Week 2"
+  },
+  {
+    "objectID": "week1.html",
+    "href": "week1.html",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Machine Learning Recap"
+  },
+  {
+    "objectID": "week1.html#test-2",
+    "href": "week1.html#test-2",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "Test 2",
+    "text": "Test 2"
+  },
+  {
+    "objectID": "weeks/week1.html#test-2",
+    "href": "weeks/week1.html#test-2",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "Test 2",
+    "text": "Test 2"
+  },
+  {
+    "objectID": "weeks/week2.html",
+    "href": "weeks/week2.html",
+    "title": "Week 2",
+    "section": "",
+    "text": "Week 2"
+  },
+  {
+    "objectID": "weeks/week1.html",
+    "href": "weeks/week1.html",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "weeks/week1.html#materials",
+    "href": "weeks/week1.html#materials",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  }
+]
