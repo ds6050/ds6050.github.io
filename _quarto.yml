@@ -17,14 +17,34 @@ website:
             href: weeks/week1.qmd
           - text: Week 2
             href: weeks/week2.qmd
+          - text: Week 3
+            href: weeks/week3.qmd
+          - text: Week 4
+            href: weeks/week4.qmd
+          - text: Week 5
+            href: weeks/week5.qmd
+          - text: Week 6
+            href: weeks/week6.qmd
+          - text: Week 7
+            href: weeks/week7.qmd
+          - text: Week 8
+            href: weeks/week8.qmd
+          - text: Week 9
+            href: weeks/week9.qmd
+          - text: Week 10
+            href: weeks/week10.qmd
+          - text: Week 11
+            href: weeks/week11.qmd
+          - text: Week 12
+            href: weeks/week12.qmd
 
 format:
   html:
     theme:
-      - journal
-      # - morph
+      # - journal
+      - morph
       # - superhero
-      #- cosmo
+      # - cosmo
       - brand
     css: styles.css
     toc: true

@@ -1,2 +1,5 @@
 _site
 _hidden
+
+/.quarto/
+**/*.quarto_ipynb

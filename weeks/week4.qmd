@@ -7,7 +7,7 @@ title: "Week 1: Machine Learning Recap"
 Here are the materials for this week:
 
 * [Slides](slides.pdf)
-* Link to lecture
+
 
 Here is a demonstration of some code:
 ```{python}
