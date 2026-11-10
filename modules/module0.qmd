@@ -1,0 +1,26 @@
+---
+title: "Module 0: Introduction"
+author: "Tom Hartvigsen"
+format: html
+---
+
+## Machine Learning Basics Recap
+
+### Code Tutorial: Introduction to Python and NumPy (Required)
+
+### Reviewing Linear Algebra (Highly Recommended)
+{{< video https://www.youtube.com/watch?v=fNk_zzaMoSs >}}
+
+### Mathematical Foundations of Deep Learning (Recommended)
+
+* Deep Learning Book Chapter 2: https://www.deeplearningbook.org/contents/linear_algebra.html
+* Deep Learning Book Chapter 4: https://www.deeplearningbook.org/contents/numerical.html
+
+### Numerical Computation Review (Recommended)
+{{< video https://www.youtube.com/watch?v=XlYD8jn1ayE >}}
+
+
+### Machine Learning Basics (Recommended)
+
+* Deep Learning Book Chapter 5: https://www.deeplearningbook.org/contents/ml.html
+

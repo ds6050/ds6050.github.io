@@ -32,10 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -45,20 +41,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d39d6f75da31277f51a1ecedc5da5be4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1b1484a229acd83e986d3bfecef187bc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -78,98 +62,146 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar docked quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">DS6050</span>
-    </a>
-  </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./syllabus.pdf"> 
-<span class="menu-text">Syllabus</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-weeks" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Weeks</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-weeks">    
-        <li>
-    <a class="dropdown-item" href="./weeks/week1.html">
- <span class="dropdown-text">Week 1</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./weeks/week2.html">
- <span class="dropdown-text">Week 2</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./weeks/week3.html">
- <span class="dropdown-text">Week 3</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./weeks/week4.html">
- <span class="dropdown-text">Week 4</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./weeks/week5.html">
- <span class="dropdown-text">Week 5</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./weeks/week6.html">
- <span class="dropdown-text">Week 6</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./weeks/week7.html">
- <span class="dropdown-text">Week 7</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./weeks/week8.html">
- <span class="dropdown-text">Week 8</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./weeks/week9.html">
- <span class="dropdown-text">Week 9</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./weeks/week10.html">
- <span class="dropdown-text">Week 10</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./weeks/week11.html">
- <span class="dropdown-text">Week 11</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./weeks/week12.html">
- <span class="dropdown-text">Week 12</span></a>
-  </li>  
-    </ul>
-  </li>
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">DS6050</a> 
+    </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./important_resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Important Resources</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./syllabus.pdf" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Syllabus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Modules</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modules/module0.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Module 0: Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modules/module1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Module 1: Introduction to Artificial Neural Networks</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Assignments</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./assignments/assignment1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Assignment 1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./minDL.html" class="sidebar-item-text sidebar-link"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text">minDL</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Useful Links</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://canvas.com" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Canvas</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://discord.com" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Discord</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#class-description" id="toc-class-description" class="nav-link active" data-scroll-target="#class-description">Class Description</a></li>
+  <li><a href="#teaching-staff" id="toc-teaching-staff" class="nav-link" data-scroll-target="#teaching-staff">Teaching staff</a>
+  <ul class="collapse">
+  <li><a href="#instructor" id="toc-instructor" class="nav-link" data-scroll-target="#instructor">Instructor</a></li>
+  <li><a href="#tas" id="toc-tas" class="nav-link" data-scroll-target="#tas">TAs</a></li>
+  </ul></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
+  <li><a href="#course-materials" id="toc-course-materials" class="nav-link" data-scroll-target="#course-materials">Course Materials</a></li>
+  <li><a href="#communication" id="toc-communication" class="nav-link" data-scroll-target="#communication">Communication</a>
+  <ul class="collapse">
+  <li><a href="#canvas" id="toc-canvas" class="nav-link" data-scroll-target="#canvas">Canvas</a></li>
+  <li><a href="#discord" id="toc-discord" class="nav-link" data-scroll-target="#discord">Discord</a></li>
+  </ul></li>
+  <li><a href="#whats-new-this-year" id="toc-whats-new-this-year" class="nav-link" data-scroll-target="#whats-new-this-year">What’s new this year?</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -193,8 +225,61 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>This is the homepage for Spring 2027 DS6050: ML III: Deep Learning.</p>
+<section id="class-description" class="level2">
+<h2 class="anchored" data-anchor-id="class-description">Class Description</h2>
+<p>This is a graduate-level course on machine learning with fundamental concepts for computational data analysis, including pattern recognition, prediction, and visualization. Topics include applied math, machine learning basics, deep neural networks, convolutional networks, sequence modeling, generative learning, and deep reinforcement learning. The course will focus on using open-source libraries such as NumPy and PyTorch. Students are required to have sufficient computational background to complete several substantive programming assignments.</p>
+<pre><code>Lecture Time:
+    Section 1: 10:00AM – 10:50AM MWF
+    Section 2: 11:00AM – 11:50AM MWF
+Location: SDS 306</code></pre>
+</section>
+<section id="teaching-staff" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-staff">Teaching staff</h2>
+<section id="instructor" class="level3">
+<h3 class="anchored" data-anchor-id="instructor">Instructor</h3>
+<p>The instructor will be <a href="https://www.tomhartvigsen.com">Tom Hartvigsen</a>.</p>
+</section>
+<section id="tas" class="level3">
+<h3 class="anchored" data-anchor-id="tas">TAs</h3>
+<ul>
+<li>TA 1</li>
+<li>TS 2</li>
+</ul>
+</section>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
+<p>Upon successful completion of this course, you will be able to:</p>
+<ul>
+<li>Create an end-to-end machine learning project at scale using open-source libraries such as NumPy, scikit-learn, PyTorch, and Google Cloud.</li>
+<li>Formulate various supervised, unsupervised, and reinforcement learning models, as well as large language models.</li>
+<li>Apply practical skill sets on designing, deploying, and analyzing deep network architectures on complex real-world problems.</li>
+<li>Articulate concepts, algorithms, and tools to build intelligent systems.</li>
+<li>Analyze advanced approaches currently pursued by the machine learning community.</li>
+</ul>
+</section>
+<section id="course-materials" class="level2">
+<h2 class="anchored" data-anchor-id="course-materials">Course Materials</h2>
+<p>This webpage hosts all needed information for this course. There will also be a canvas page where you will submit your assignments and projects. You must monitor both resources to stay on top of your deadlines.</p>
+</section>
+<section id="communication" class="level2">
+<h2 class="anchored" data-anchor-id="communication">Communication</h2>
+<p>Nearly all communication for the course will be in a Discord server. Please use the following link to join the class discord: https://discord.gg/Pq2q4q8M4pLinks to an external site. You must set your username to be “Your Name (computing_id)”. For example, Tom Hartvigsen’s username would be “Tom Hartvigsen (zcy9jk)”.</p>
+<section id="canvas" class="level3">
+<h3 class="anchored" data-anchor-id="canvas">Canvas</h3>
+<p>Announcements will be made through Canvas.</p>
+</section>
+<section id="discord" class="level3">
+<h3 class="anchored" data-anchor-id="discord">Discord</h3>
+</section>
+</section>
+<section id="whats-new-this-year" class="level2">
+<h2 class="anchored" data-anchor-id="whats-new-this-year">What’s new this year?</h2>
+<p>Last year, I collected feedback from the class to see what they wanted added. Their main request was <strong>more coding</strong>. In response, I have added a new codebase that we will build as a class this semester. I call it minDL, as it is a minimal implementation of deep learning algorithms. You will then have jupyter notebook assignments that rely on your implementations within minDL.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

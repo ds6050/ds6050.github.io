@@ -1,5 +1,75 @@
 [
   {
+    "objectID": "important_resources.html",
+    "href": "important_resources.html",
+    "title": "Important Resources",
+    "section": "",
+    "text": "Assignment Rubric",
+    "crumbs": [
+      "Important Resources"
+    ]
+  },
+  {
+    "objectID": "important_resources.html#ds6050-programming-assignment-grading-rubric",
+    "href": "important_resources.html#ds6050-programming-assignment-grading-rubric",
+    "title": "Important Resources",
+    "section": "",
+    "text": "Assignment Rubric",
+    "crumbs": [
+      "Important Resources"
+    ]
+  },
+  {
+    "objectID": "important_resources.html#weightsbiases",
+    "href": "important_resources.html#weightsbiases",
+    "title": "Important Resources",
+    "section": "Weights&Biases",
+    "text": "Weights&Biases\nWeights & Biases.\nimport wandb",
+    "crumbs": [
+      "Important Resources"
+    ]
+  },
+  {
+    "objectID": "modules/module1.html",
+    "href": "modules/module1.html",
+    "title": "Module 1: Introduction to Artificial Neural Networks",
+    "section": "",
+    "text": "(Highly Recommended) Visual Introduction to Neural Networks \n(Recommended) Deep Learning book Chapter 6: https://www.deeplearningbook.org/contents/mlp.html\n(Required) Code Tutorial\n(Recommended) Visualizing how neural networks transform data: https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/\n(Recommended) Introduction to neural network optimization",
+    "crumbs": [
+      "Modules",
+      "Module 1: Introduction to Artificial Neural Networks"
+    ]
+  },
+  {
+    "objectID": "modules/module1.html#resources",
+    "href": "modules/module1.html#resources",
+    "title": "Module 1: Introduction to Artificial Neural Networks",
+    "section": "",
+    "text": "(Highly Recommended) Visual Introduction to Neural Networks \n(Recommended) Deep Learning book Chapter 6: https://www.deeplearningbook.org/contents/mlp.html\n(Required) Code Tutorial\n(Recommended) Visualizing how neural networks transform data: https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/\n(Recommended) Introduction to neural network optimization",
+    "crumbs": [
+      "Modules",
+      "Module 1: Introduction to Artificial Neural Networks"
+    ]
+  },
+  {
+    "objectID": "modules/module1.html#assignment-1",
+    "href": "modules/module1.html#assignment-1",
+    "title": "Module 1: Introduction to Artificial Neural Networks",
+    "section": "Assignment 1",
+    "text": "Assignment 1\nIn this assignment, you will implement your own neural networks to classify non-linear data from the XOR dataset. For deliverables, you must write code in Python/PyTorch and submit the below Jupyter Notebook file (.ipynb) to earn a total of 150 pts. Note that you must save your Notebook filename under this format: yourUVAUserId_assignment_1_ann.ipynb.",
+    "crumbs": [
+      "Modules",
+      "Module 1: Introduction to Artificial Neural Networks"
+    ]
+  },
+  {
+    "objectID": "weeks.html",
+    "href": "weeks.html",
+    "title": "Weeks",
+    "section": "",
+    "text": "Week 1\nWeek 2"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -7,127 +77,22 @@
     "text": "About this site"
   },
   {
-    "objectID": "weeks/week10.html",
-    "href": "weeks/week10.html",
+    "objectID": "XOR.html",
+    "href": "XOR.html",
+    "title": "XOR",
+    "section": "",
+    "text": "The XOR problem"
+  },
+  {
+    "objectID": "weeks/week11.html",
+    "href": "weeks/week11.html",
     "title": "Week 1: Machine Learning Recap",
     "section": "",
     "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
-    "objectID": "weeks/week10.html#materials",
-    "href": "weeks/week10.html#materials",
-    "title": "Week 1: Machine Learning Recap",
-    "section": "",
-    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "weeks/week12.html",
-    "href": "weeks/week12.html",
-    "title": "Week 1: Machine Learning Recap",
-    "section": "",
-    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "weeks/week12.html#materials",
-    "href": "weeks/week12.html#materials",
-    "title": "Week 1: Machine Learning Recap",
-    "section": "",
-    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "weeks/week4.html",
-    "href": "weeks/week4.html",
-    "title": "Week 1: Machine Learning Recap",
-    "section": "",
-    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "weeks/week4.html#materials",
-    "href": "weeks/week4.html#materials",
-    "title": "Week 1: Machine Learning Recap",
-    "section": "",
-    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "weeks/week7.html",
-    "href": "weeks/week7.html",
-    "title": "Week 1: Machine Learning Recap",
-    "section": "",
-    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "weeks/week7.html#materials",
-    "href": "weeks/week7.html#materials",
-    "title": "Week 1: Machine Learning Recap",
-    "section": "",
-    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "weeks/week9.html",
-    "href": "weeks/week9.html",
-    "title": "Week 1: Machine Learning Recap",
-    "section": "",
-    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "weeks/week9.html#materials",
-    "href": "weeks/week9.html#materials",
-    "title": "Week 1: Machine Learning Recap",
-    "section": "",
-    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "weeks/week8.html",
-    "href": "weeks/week8.html",
-    "title": "Week 1: Machine Learning Recap",
-    "section": "",
-    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "weeks/week8.html#materials",
-    "href": "weeks/week8.html#materials",
-    "title": "Week 1: Machine Learning Recap",
-    "section": "",
-    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "weeks/week1.html",
-    "href": "weeks/week1.html",
-    "title": "Week 1: Machine Learning Recap",
-    "section": "",
-    "text": "Here are the materials for this week:\n\nSlides\nLink to lecture\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "weeks/week1.html#materials",
-    "href": "weeks/week1.html#materials",
-    "title": "Week 1: Machine Learning Recap",
-    "section": "",
-    "text": "Here are the materials for this week:\n\nSlides\nLink to lecture\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "weeks/week3.html",
-    "href": "weeks/week3.html",
-    "title": "Week 1: Machine Learning Recap",
-    "section": "",
-    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "weeks/week3.html#materials",
-    "href": "weeks/week3.html#materials",
-    "title": "Week 1: Machine Learning Recap",
-    "section": "",
-    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "weeks/week6.html",
-    "href": "weeks/week6.html",
-    "title": "Week 1: Machine Learning Recap",
-    "section": "",
-    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "weeks/week6.html#materials",
-    "href": "weeks/week6.html#materials",
+    "objectID": "weeks/week11.html#materials",
+    "href": "weeks/week11.html#materials",
     "title": "Week 1: Machine Learning Recap",
     "section": "",
     "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
@@ -147,24 +112,304 @@
     "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
-    "objectID": "weeks/week11.html",
-    "href": "weeks/week11.html",
+    "objectID": "weeks/week6.html",
+    "href": "weeks/week6.html",
     "title": "Week 1: Machine Learning Recap",
     "section": "",
     "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
-    "objectID": "weeks/week11.html#materials",
-    "href": "weeks/week11.html#materials",
+    "objectID": "weeks/week6.html#materials",
+    "href": "weeks/week6.html#materials",
     "title": "Week 1: Machine Learning Recap",
     "section": "",
     "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
-    "objectID": "weeks.html",
-    "href": "weeks.html",
-    "title": "Weeks",
+    "objectID": "weeks/week3.html",
+    "href": "weeks/week3.html",
+    "title": "Week 1: Machine Learning Recap",
     "section": "",
-    "text": "Week 1\nWeek 2"
+    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "weeks/week3.html#materials",
+    "href": "weeks/week3.html#materials",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "weeks/week1.html",
+    "href": "weeks/week1.html",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\nLink to lecture\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "weeks/week1.html#materials",
+    "href": "weeks/week1.html#materials",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\nLink to lecture\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "weeks/week8.html",
+    "href": "weeks/week8.html",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "weeks/week8.html#materials",
+    "href": "weeks/week8.html#materials",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "assignments/assignment1.html",
+    "href": "assignments/assignment1.html",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "In this assignment, you will implement your own neural networks to classify non-linear data to solve the XOR problem. For deliverables, you must write code in Python/Pytorch and submit this Jupyter Notebook file (.ipynb) to earn a total of 80 pts. Note that you must save your Notebook filename under this format: yourUvaUserId_assignment_1_ann.ipynb\nYou can find the jupyter notebook on Canvas.",
+    "crumbs": [
+      "Assignments",
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment1.html#overview",
+    "href": "assignments/assignment1.html#overview",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "In this assignment, you will implement your own neural networks to classify non-linear data to solve the XOR problem. For deliverables, you must write code in Python/Pytorch and submit this Jupyter Notebook file (.ipynb) to earn a total of 80 pts. Note that you must save your Notebook filename under this format: yourUvaUserId_assignment_1_ann.ipynb\nYou can find the jupyter notebook on Canvas.",
+    "crumbs": [
+      "Assignments",
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment1.html#data",
+    "href": "assignments/assignment1.html#data",
+    "title": "Assignment 1",
+    "section": "Data",
+    "text": "Data\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\ndef make_xor(n_points):\n    centers = np.array([[0,0],[0,1],[1,0],[1,1]])\n    labels = np.array([0,1,1,0])\n    data = np.array([]).reshape(-1,3)\n    for center, label in zip(centers,labels):\n        points = np.random.normal(loc=center,scale=0.2,size=(n_points//4,2))\n        points_labels = np.hstack((points,label*np.ones(n_points//4).reshape((-1, 1))))\n        data = np.vstack((data,points_labels))\n    #data = data[np.random.choice(len(data), len(data), replace=False), :]\n    return (data[:,[0,1]],data[:,2])\n\nX, y = make_xor(1000)\n\nX_train, y_train = X[:800], y[:800]\nX_test, y_test = X[800:], y[800:]\ny=y.astype(np.int64)\n\nfig, ax = plt.subplots()\nax.scatter(X[:,0], X[:,1], s=40, c=y, cmap=plt.cm.Spectral)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: Synthetic dataset",
+    "crumbs": [
+      "Assignments",
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "weeks/week9.html",
+    "href": "weeks/week9.html",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "weeks/week9.html#materials",
+    "href": "weeks/week9.html#materials",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "weeks/week7.html",
+    "href": "weeks/week7.html",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "weeks/week7.html#materials",
+    "href": "weeks/week7.html#materials",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "weeks/week4.html",
+    "href": "weeks/week4.html",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "weeks/week4.html#materials",
+    "href": "weeks/week4.html#materials",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "weeks/week12.html",
+    "href": "weeks/week12.html",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "weeks/week12.html#materials",
+    "href": "weeks/week12.html#materials",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "weeks/week10.html",
+    "href": "weeks/week10.html",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "weeks/week10.html#materials",
+    "href": "weeks/week10.html#materials",
+    "title": "Week 1: Machine Learning Recap",
+    "section": "",
+    "text": "Here are the materials for this week:\n\nSlides\n\nHere is a demonstration of some code:\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 4, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'}\n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DS6050: ML III: Deep Learning",
+    "section": "",
+    "text": "This is the homepage for Spring 2027 DS6050: ML III: Deep Learning.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#class-description",
+    "href": "index.html#class-description",
+    "title": "DS6050: ML III: Deep Learning",
+    "section": "Class Description",
+    "text": "Class Description\nThis is a graduate-level course on machine learning with fundamental concepts for computational data analysis, including pattern recognition, prediction, and visualization. Topics include applied math, machine learning basics, deep neural networks, convolutional networks, sequence modeling, generative learning, and deep reinforcement learning. The course will focus on using open-source libraries such as NumPy and PyTorch. Students are required to have sufficient computational background to complete several substantive programming assignments.\nLecture Time:\n    Section 1: 10:00AM – 10:50AM MWF\n    Section 2: 11:00AM – 11:50AM MWF\nLocation: SDS 306",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#teaching-staff",
+    "href": "index.html#teaching-staff",
+    "title": "DS6050: ML III: Deep Learning",
+    "section": "Teaching staff",
+    "text": "Teaching staff\n\nInstructor\nThe instructor will be Tom Hartvigsen.\n\n\nTAs\n\nTA 1\nTS 2",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#learning-outcomes",
+    "href": "index.html#learning-outcomes",
+    "title": "DS6050: ML III: Deep Learning",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nUpon successful completion of this course, you will be able to:\n\nCreate an end-to-end machine learning project at scale using open-source libraries such as NumPy, scikit-learn, PyTorch, and Google Cloud.\nFormulate various supervised, unsupervised, and reinforcement learning models, as well as large language models.\nApply practical skill sets on designing, deploying, and analyzing deep network architectures on complex real-world problems.\nArticulate concepts, algorithms, and tools to build intelligent systems.\nAnalyze advanced approaches currently pursued by the machine learning community.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#course-materials",
+    "href": "index.html#course-materials",
+    "title": "DS6050: ML III: Deep Learning",
+    "section": "Course Materials",
+    "text": "Course Materials\nThis webpage hosts all needed information for this course. There will also be a canvas page where you will submit your assignments and projects. You must monitor both resources to stay on top of your deadlines.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#communication",
+    "href": "index.html#communication",
+    "title": "DS6050: ML III: Deep Learning",
+    "section": "Communication",
+    "text": "Communication\nNearly all communication for the course will be in a Discord server. Please use the following link to join the class discord: https://discord.gg/Pq2q4q8M4pLinks to an external site. You must set your username to be “Your Name (computing_id)”. For example, Tom Hartvigsen’s username would be “Tom Hartvigsen (zcy9jk)”.\n\nCanvas\nAnnouncements will be made through Canvas.\n\n\nDiscord",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#whats-new-this-year",
+    "href": "index.html#whats-new-this-year",
+    "title": "DS6050: ML III: Deep Learning",
+    "section": "What’s new this year?",
+    "text": "What’s new this year?\nLast year, I collected feedback from the class to see what they wanted added. Their main request was more coding. In response, I have added a new codebase that we will build as a class this semester. I call it minDL, as it is a minimal implementation of deep learning algorithms. You will then have jupyter notebook assignments that rely on your implementations within minDL.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "minDL.html",
+    "href": "minDL.html",
+    "title": "minDL: A minimal python codebase for implementing deep learning algorithms",
+    "section": "",
+    "text": "Throughout DL6050, you will each be building a codebase for your deep learning methods.",
+    "crumbs": [
+      "minDL"
+    ]
+  },
+  {
+    "objectID": "minDL.html#setup-tutorial",
+    "href": "minDL.html#setup-tutorial",
+    "title": "minDL: A minimal python codebase for implementing deep learning algorithms",
+    "section": "Setup & Tutorial",
+    "text": "Setup & Tutorial\nI’ve implemented the skeleton of this codebase for you here: minDL. Your first task is to set this codebase up on your own, which is your first assignment.",
+    "crumbs": [
+      "minDL"
+    ]
+  },
+  {
+    "objectID": "modules/module0.html",
+    "href": "modules/module0.html",
+    "title": "Module 0: Introduction",
+    "section": "",
+    "text": "Deep Learning Book Chapter 2: https://www.deeplearningbook.org/contents/linear_algebra.html\nDeep Learning Book Chapter 4: https://www.deeplearningbook.org/contents/numerical.html\n\n\n\n\n\n\n\n\n\nDeep Learning Book Chapter 5: https://www.deeplearningbook.org/contents/ml.html",
+    "crumbs": [
+      "Modules",
+      "Module 0: Introduction"
+    ]
+  },
+  {
+    "objectID": "modules/module0.html#machine-learning-basics-recap",
+    "href": "modules/module0.html#machine-learning-basics-recap",
+    "title": "Module 0: Introduction",
+    "section": "",
+    "text": "Deep Learning Book Chapter 2: https://www.deeplearningbook.org/contents/linear_algebra.html\nDeep Learning Book Chapter 4: https://www.deeplearningbook.org/contents/numerical.html\n\n\n\n\n\n\n\n\n\nDeep Learning Book Chapter 5: https://www.deeplearningbook.org/contents/ml.html",
+    "crumbs": [
+      "Modules",
+      "Module 0: Introduction"
+    ]
+  },
+  {
+    "objectID": "presentations/test.html#getting-up",
+    "href": "presentations/test.html#getting-up",
+    "title": "Habits",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed",
+    "crumbs": [
+      "Habits"
+    ]
+  },
+  {
+    "objectID": "presentations/test.html#going-to-sleep",
+    "href": "presentations/test.html#going-to-sleep",
+    "title": "Habits",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount sheep",
+    "crumbs": [
+      "Habits"
+    ]
+  },
+  {
+    "objectID": "presentations/test.html#getting-out",
+    "href": "presentations/test.html#getting-out",
+    "title": "Habits",
+    "section": "Getting out",
+    "text": "Getting out\n\nTurn off alarm\nGet out of bed",
+    "crumbs": [
+      "Habits"
+    ]
   }
 ]

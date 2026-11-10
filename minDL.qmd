@@ -1,0 +1,14 @@
+---
+title: "minDL: A minimal python codebase for implementing deep learning algorithms"
+format: html
+---
+
+Throughout DL6050, you will each be building a codebase for your deep learning methods.
+
+## Setup & Tutorial
+
+I've implemented the skeleton of this codebase for you here: [minDL](https://github.com/ds6050/minDL).
+Your first task is to set this codebase up on your own, which is your [first assignment](assignment1.qmd).
+
+##
+

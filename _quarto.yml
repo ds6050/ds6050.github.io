@@ -4,39 +4,87 @@ project:
 
 website:
   title: "DS6050"
-  navbar:
-    search: false
-    left:
-      - href: index.qmd
-        text: Home
-      - href: syllabus.pdf
-        text: Syllabus
-      - text: Weeks
-        menu:
-          - text: Week 1
-            href: weeks/week1.qmd
-          - text: Week 2
-            href: weeks/week2.qmd
-          - text: Week 3
-            href: weeks/week3.qmd
-          - text: Week 4
-            href: weeks/week4.qmd
-          - text: Week 5
-            href: weeks/week5.qmd
-          - text: Week 6
-            href: weeks/week6.qmd
-          - text: Week 7
-            href: weeks/week7.qmd
-          - text: Week 8
-            href: weeks/week8.qmd
-          - text: Week 9
-            href: weeks/week9.qmd
-          - text: Week 10
-            href: weeks/week10.qmd
-          - text: Week 11
-            href: weeks/week11.qmd
-          - text: Week 12
-            href: weeks/week12.qmd
+  search: false
+  sidebar:
+    style: "docked"
+    collapse-level: 1
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - text: "Important Resources"
+        href: important_resources.qmd
+      - text: "Syllabus"
+        href: syllabus.pdf
+      - section: "Modules"
+        contents:
+          - modules/module0.qmd
+          - modules/module1.qmd
+      - section: "Assignments"
+        contents:
+          - assignments/assignment1.qmd
+      #- section: "Course Materials"
+      #  contents:
+      #    - weeks/week1.qmd
+      #    - weeks/week2.qmd
+      #    - weeks/week3.qmd
+      #    - weeks/week4.qmd
+      #    - weeks/week5.qmd
+      #    - weeks/week6.qmd
+      #    - weeks/week7.qmd
+      #    - weeks/week8.qmd
+      #    - weeks/week9.qmd
+      #    - weeks/week10.qmd
+      #    - weeks/week11.qmd
+      #    - weeks/week12.qmd
+      - text: "minDL"
+        icon: github
+        href: minDL.qmd
+      - section: "Useful Links"
+        contents:
+          - text: Canvas
+            href: https://canvas.com
+          - text: Discord
+            href: https://discord.com
+
+  # navbar:
+  #   search: false
+  #   left:
+  #     - href: index.qmd
+  #       text: Home
+  #     - href: syllabus.pdf
+  #       text: Syllabus
+  #     - text: Course Materials
+  #       menu:
+  #         - text: Week 1
+  #           href: weeks/week1.qmd
+  #         - text: Week 2
+  #           href: weeks/week2.qmd
+  #         - text: Week 3
+  #           href: weeks/week3.qmd
+  #         - text: Week 4
+  #           href: weeks/week4.qmd
+  #         - text: Week 5
+  #           href: weeks/week5.qmd
+  #         - text: Week 6
+  #           href: weeks/week6.qmd
+  #         - text: Week 7
+  #           href: weeks/week7.qmd
+  #         - text: Week 8
+  #           href: weeks/week8.qmd
+  #         - text: Week 9
+  #           href: weeks/week9.qmd
+  #         - text: Week 10
+  #           href: weeks/week10.qmd
+  #         - text: Week 11
+  #           href: weeks/week11.qmd
+  #         - text: Week 12
+  #           href: weeks/week12.qmd
+  #     - text: Useful Links
+  #       menu:
+  #         - text: Canvas
+  #           href: https://canvas.com
+  #         - text: Discord
+  #           href: https://discord.com
 
 format:
   html:

@@ -1,0 +1,15 @@
+---
+title: "Important Resources"
+format: html
+---
+
+## DS6050 Programming Assignment Grading Rubric
+* [Assignment Rubric](files/ds6050_assignment_rubric.pdf)
+
+## Weights&Biases
+Weights & Biases.
+
+```
+import wandb
+```
+

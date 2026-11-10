@@ -2,3 +2,51 @@
 title: "DS6050: ML III: Deep Learning"
 ---
 
+This is the homepage for Spring 2027 DS6050: ML III: Deep Learning.
+
+## Class Description
+
+This is a graduate-level course on machine learning with fundamental concepts for computational data analysis, including pattern recognition, prediction, and visualization. Topics include applied math, machine learning basics, deep neural networks, convolutional networks, sequence modeling, generative learning, and deep reinforcement learning. The course will focus on using open-source libraries such as NumPy and PyTorch. Students are required to have sufficient computational background to complete several substantive programming assignments.
+
+    Lecture Time:
+        Section 1: 10:00AM – 10:50AM MWF
+        Section 2: 11:00AM – 11:50AM MWF
+    Location: SDS 306
+
+## Teaching staff
+
+### Instructor
+
+The instructor will be [Tom Hartvigsen](https://www.tomhartvigsen.com).
+
+### TAs
+
+* TA 1
+* TS 2
+
+## Learning Outcomes 
+
+Upon successful completion of this course, you will be able to:
+
+* Create an end-to-end machine learning project at scale using open-source libraries such as NumPy, scikit-learn, PyTorch, and Google Cloud.
+* Formulate various supervised, unsupervised, and reinforcement learning models, as well as large language models.
+* Apply practical skill sets on designing, deploying, and analyzing deep network architectures on complex real-world problems.
+* Articulate concepts, algorithms, and tools to build intelligent systems.
+* Analyze advanced approaches currently pursued by the machine learning community.
+
+## Course Materials
+
+This webpage hosts all needed information for this course. There will also be a canvas page where you will submit your assignments and projects. You must monitor both resources to stay on top of your deadlines. 
+
+## Communication
+
+Nearly all communication for the course will be in a Discord server. Please use the following link to join the class discord: https://discord.gg/Pq2q4q8M4pLinks to an external site. You must set your username to be "Your Name (computing_id)". For example, Tom Hartvigsen's username would be "Tom Hartvigsen (zcy9jk)". 
+
+### Canvas
+Announcements will be made through Canvas.
+
+### Discord
+
+## What's new this year?
+
+Last year, I collected feedback from the class to see what they wanted added. Their main request was **more coding**. In response, I have added a new codebase that we will build as a class this semester. I call it minDL, as it is a minimal implementation of deep learning algorithms. You will then have jupyter notebook assignments that rely on your implementations within minDL.

@@ -1,0 +1,16 @@
+---
+title: "Module 1: Introduction to Artificial Neural Networks"
+format: html
+---
+
+## Resources
+* (Highly Recommended) Visual Introduction to Neural Networks {{< video https://www.youtube.com/watch?v=aircAruvnKk >}}
+* (Recommended) Deep Learning book Chapter 6: https://www.deeplearningbook.org/contents/mlp.html
+* (Required) Code Tutorial
+* (Recommended) Visualizing how neural networks transform data: https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/
+* (Recommended) Introduction to neural network optimization {{< video https://www.youtube.com/watch?v=IHZwWFHWa-w >}}
+
+## Assignment 1
+In this assignment, you will implement your own neural networks to classify non-linear data from the XOR dataset. For deliverables, you must write code in Python/PyTorch and submit the below Jupyter Notebook file (.ipynb) to earn a total of 150 pts. Note that you must save your Notebook filename under this format: **yourUVAUserId_assignment_1_ann.ipynb**.
+
+
